@@ -3,13 +3,29 @@
   <head>
     <title>HTML Tags</title>
     <meta charset="utf-8">
+    <style>
+   a {
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+   }
+   a:hover {
+    text-decoration: underline; /* Добавляем подчеркивание
+                                   при наведении курсора мыши на ссылку */
+   }
+
+   a:link {
+    color: #0000ff; /* Цвет ссылок */
+   }
+   a:visited {
+    color: #0000ff; /* Цвет посещенных ссылок */
+   }
+  </style>
   </head>
   <body>
 
-    <div>
+    <div style="text-align: right;">
       <a href="index.html">Home</a>
-      <a href="tags.html">HTML Tags</a>
-      <a href="moby_dick.html">Moby Dick</a>
+      <a href="tags.html" style="margin: 0 0 0 10px">HTML Tags</a>
+      <a href="moby_dick.html" style="margin: 0 0 0 10px">Moby Dick</a>
     </div>
 
     <header>
@@ -46,9 +62,9 @@
           <th>Purpose</th>
         </tr>
         <tr>
-          <td><code>h1</code>&ndash;<code>h6</code></td>
-          <td>headings</td>
-          <td>include a heading (levels 1&ndash;6)</td>
+          <td style="padding: 10px;"><code>h1</code>&ndash;<code>h6</code></td>
+          <td style="padding: 10px">headings</td>
+          <td style="padding: 10px";>include a heading (levels 1&ndash;6)</td>
         </tr>
         <tr>
           <td><code>p</code></td>
@@ -74,6 +90,36 @@
           <td><code>td</code></td>
           <td>table data</td>
           <td>include a table data cell</td>
+        </tr>
+        <tr>
+          <td><code>div</code></td>
+          <td>division</td>
+          <td>divides things into blocks</td>
+        </tr>
+        <tr>
+          <td><code>ol</code></td>
+          <td>ordered list</td>
+          <td>makes an ordered list</td>
+        </tr>
+        <tr>
+          <td><code>ul</code></td>
+          <td>unordered list</td>
+          <td>makes an unordered list</td>
+        </tr>
+        <tr>
+          <td><code>html</code></td>
+          <td>html</td>
+          <td>adds up to the structure</td>
+        </tr>
+        <tr>
+          <td><code>head</code></td>
+          <td>head</td>
+          <td>adds up to the structure</td>
+        </tr>
+        <tr>
+          <td><code>body</code></td>
+          <td>body</td>
+          <td>adds up to the structure</td>
         </tr>
       </table>
     </div>
@@ -135,6 +181,34 @@
           <td>shows code formatting</td>
           <td><code>&lt;code&gt;table&lt;/code&gt;</code></td>
           <td><code>table</code></td>
+        </tr>
+        <tr>
+          <td><code>li</code></td>
+          <td>list</td>
+          <td>line in a list</td>
+          <td><code>&lt;li&gt;Starbuck&lt;/li&gt;</code></td>
+          <td><li>Starbuck</li></td>
+        </tr>
+        <tr>
+          <td><code>span</code></td>
+          <td>span</td>
+          <td>adds up to the structure</td>
+          <td><code>&lt;span&gt;Call me Ishmael&lt;/span&gt;</code></td>
+          <td><span>Call me Ishmael</span></td>
+        </tr>
+        <tr>
+          <td><code>title</code></td>
+          <td>title</td>
+          <td>marks up the title</td>
+          <td><code>&lt;title&gt;A whale of a greeting&lt;/title&gt;</code></td>
+          <td><title>A whale of a greeting</title></td>
+        </tr>
+        <tr>
+          <td><code>meta</code></td>
+          <td>metatag</td>
+          <td>makes possible to use charsets</td>
+          <td><code>&lt;meta charset="utf-8"&gt;Learn Enough™</code></td>
+          <td><meta charset="utf-8">Learn Enough™</td>
         </tr>
       </table>
     </div>
